@@ -73,12 +73,12 @@ li {
 .btn-categorias:hover {
   background-color: #9999a1;
 }
-.body-login{
-    background-image: url(../img/mate\ fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+.body-login {
+  background-image: url(../img/mate\ fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 .main-login {
   width: 100%;
@@ -214,4 +214,8 @@ li {
   .contenedor--login--registro form {
     position: relative;
   }
+}
+/*Css footer*/ 
+.PieDePagina {
+  background: #8a897c;
 }
