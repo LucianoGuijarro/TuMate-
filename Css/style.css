@@ -5,8 +5,14 @@ body {
 a {
   text-decoration: none;
 }
+.color1{
+  background: #8a897c;
+}
 li {
   list-style: none;
+}
+.max--height{
+  height: 500px;
 }
 #lista1 {
   display: inline;
