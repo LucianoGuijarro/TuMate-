@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.margin-end{
+  margin-right: 90px;
+}
 a {
   text-decoration: none;
 }
@@ -12,7 +15,10 @@ li {
   list-style: none;
 }
 .max--height{
-  height: 500px;
+  max-height: 500px;
+}
+.login:hover{
+  color: white !important;
 }
 #lista1 {
   display: inline;
@@ -24,7 +30,6 @@ li {
   padding-left: 3px;
   padding-right: 3px;
 }
-
 .contenedor-imagen {
   position: relative;
   overflow: hidden;
