@@ -11,7 +11,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <script src="./Jss/menuLateral.js"></script>
     <script
       src="https://kit.fontawesome.com/541eacd471.js"
       crossorigin="anonymous"
@@ -22,6 +21,8 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./Jss/app.js"></script>
+    <script defer src="./Jss/menuLateral.js"></script>
+    <script defer src="./Jss/carrito.js"></script>
   </head>
   <body>
     <header>
@@ -45,7 +46,7 @@
         <div class="carousel">
           <div
             id="carouselExampleControls"
-            class="carousel slide"
+            class="carousel-slide"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
@@ -76,6 +77,22 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row">
+          <!-- Elementos generados a partir del JSON -->
+          <main id="items" class="col-sm-8 row"></main>
+          <!-- Carrito -->
+          <aside class="col-sm-4">
+            <h2>Carrito</h2>
+            <!-- Elementos del carrito -->
+            <ul id="carrito" class="list-group"></ul>
+            <hr />
+            <!-- Precio total -->
+            <p class="text-right">Total: <span id="total"></span>&euro;</p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+          </aside>
         </div>
       </section>
       <section class="container mt-5">
