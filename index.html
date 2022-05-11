@@ -21,22 +21,69 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./Jss/app.js"></script>
-    <script defer src="./Jss/menuLateral.js"></script>
     <script defer src="./Jss/carrito.js"></script>
   </head>
   <body>
     <header>
-      <nav class="menu">
-        <label class="logo">TuMate!</label>
-        <ul class="menu_items">
-          <li class="active"><a href="">Inicio</a></li>
-          <li><a href="#">CARRITO</a></li>
-          <li><a href="#">BUSCADOR</a></li>
-          <li><a href="#">MENSAJES</a></li>
-        </ul>
-        <span class="btn-menu">
-          <i class="fa fa-bars"></i>
-        </span>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand icon" href="#">TuMate!</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carrito</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mas
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Mates</a></li>
+                  <li><a class="dropdown-item" href="#">Termos</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Combos</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                aria-label="Search"
+              />
+              <button class="btn" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
       </nav>
     </header>
     <!-- TERMINA NAVEGADOR -->
