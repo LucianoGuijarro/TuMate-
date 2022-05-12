@@ -9,6 +9,9 @@
   border-bottom: 1px solid #efefef;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
+.card-height{
+  max-height: 100px;
+}
 .logo {
   color: #fff;
   font-size: 35px;
