@@ -1,17 +1,54 @@
 /* NAVEGADOR */
 :root {
-  --color-primario: #fff;
-  --color-secundario: #d2d7df;
+  --color-1: #fff;
+  --color-2: #d2d7df;
+  --color-3: #bdbbb0;
 }
 
 .navbar {
-  background-color: var(--color-primario);
+  margin: 5px;
+  background-color: var(--color-1);
 }
-.btn {
-  border-color: var(--color-secundario);
+.icon {
+  margin: 10px 30px;
+  font-size: 35px;
 }
+.navbar-toggler {
+  font-size: 20px;
+  background-color: var(--color-3);
+}
+.navbar-nav {
+  margin-left: 40px;
+  padding: 5px;
+  font-size: 25px;
+}
+.nav-item {
+  margin: 0 15px;
+  line-height: 40px;
+}
+.nav-link:hover {
+  background-color: var(--color-3);
+  border-radius: 5px;
+}
+.dropdown-menu {
+  font-size: 15px;
+}
+/* CAMBIAR EL TAMAÑO DE LA LETRA DEL BUSCADOR INTERNO */
+.btn-search {
+  background-color: var(--color-3);
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+}
+
 .carousel img {
   height: 800px;
+}
+@media (max-width: 992px) {
+  .nav-link:hover {
+    width: 80px;
+  }
 }
 /* AQUI COMIENZA EL CUERPO */
 
