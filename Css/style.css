@@ -1,8 +1,9 @@
 /* NAVEGADOR */
-:root {
-  --color-1: #fff;
-  --color-2: #d2d7df;
-  --color-3: #bdbbb0;
+.envios {
+  background-color: var(--color-3);
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
 }
 
 .navbar {
@@ -10,8 +11,10 @@
   background-color: var(--color-1);
 }
 .icon {
-  margin: 10px 30px;
-  font-size: 35px;
+  height: 200px;
+  width: 50px;
+  display: flex;
+  margin-right: 180px;
 }
 .navbar-toggler {
   font-size: 20px;
@@ -26,6 +29,9 @@
   margin: 0 15px;
   line-height: 40px;
 }
+.nav-link {
+  margin: 0 25px;
+}
 .nav-link:hover {
   background-color: var(--color-3);
   border-radius: 5px;
@@ -34,11 +40,16 @@
   font-size: 15px;
 }
 /* CAMBIAR EL TAMAÑO DE LA LETRA DEL BUSCADOR INTERNO */
+.form-control {
+  width: 110px;
+  height: 30px;
+  font-size: 15px;
+}
 .btn-search {
   background-color: var(--color-3);
   border-radius: 5px;
   width: 80px;
-  height: 40px;
+  height: 30px;
   font-size: 15px;
 }
 
