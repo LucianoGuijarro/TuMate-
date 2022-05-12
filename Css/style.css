@@ -4,6 +4,7 @@
   --color-2: #d2d7df;
   --color-3: #bdbbb0;
 }
+
 .envios {
   background-color: var(--color-3);
   display: flex;
