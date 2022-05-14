@@ -34,3 +34,24 @@ function iniciarSesion() {
   cajaTraseraRegistro.style.opacity = "1";
   cajaTraseraLogin.style.opacity = "0";
 }
+
+const cardContainer = document.getElementById('cardContainer');
+
+fetch('http://localhost:3000/productos/')
+.then(response => response.json())
+.then(response => {
+response.map((productos) => {
+  const card = document.createElement('div');
+  const cardCont = `
+  <div class="card-body">
+    <h5 class="card-title">${productos.title}</h5>
+    <img src=${productos.img} class="card-img-top img-fluid" alt="...">
+    <button class="btn btn-primary mt-5">Ver producto</button>
+  </div>`
+
+  card.className = 'card col-2 cardBg mt-5 mx-4 g-0'
+
+  card.innerHTML = cardCont
+  cardContainer.appendChild(card)
+  })
+})

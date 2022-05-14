@@ -16,6 +16,15 @@
   margin: 5px;
   background-color: var(--color-1);
 }
+.card-height {
+  max-height: 100px;
+}
+.logo {
+  color: #fff;
+  font-size: 35px;
+  padding: 0 80px;
+  font-weight: bold;
+}
 .icon {
   height: 200px;
   width: 50px;
@@ -76,8 +85,14 @@ body {
 a {
   text-decoration: none;
 }
+.color1 {
+  background: #8a897c;
+}
 li {
   list-style: none;
+}
+.max--height {
+  height: 500px;
 }
 #lista1 {
   display: inline;
@@ -286,7 +301,7 @@ li {
     position: relative;
   }
 }
-/*Css footer*/ 
+/*Css footer*/
 .PieDePagina {
   background: #8a897c;
 }
