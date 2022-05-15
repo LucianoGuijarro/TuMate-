@@ -16,9 +16,6 @@
   margin: 5px;
   background-color: var(--color-1);
 }
-.card-height {
-  max-height: 100px;
-}
 .logo {
   color: #fff;
   font-size: 35px;

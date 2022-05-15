@@ -43,13 +43,22 @@ fetch('http://localhost:3000/productos/')
 response.map((productos) => {
   const card = document.createElement('div');
   const cardCont = `
-  <div class="card-body">
-    <h5 class="card-title">${productos.title}</h5>
-    <img src=${productos.img} class="card-img-top img-fluid" alt="...">
-    <button class="btn btn-primary mt-5">Ver producto</button>
-  </div>`
+  <div class="row">
+  <p class="fw-bold text-center mt-4">${productos.title}</p>
+</div>
+<div class="row">
+  <img
+    class="img-fluid"
+    src="${productos.img}"
+    alt=""
+  />
+</div>
+<div class="row justify-content-center">
+  <p class="text-center fw-bold opacity-75 fs-3 mt-3">$${productos.precio}</p>
+  <button class="btn btn-primary w-50 mb-4 mt-1">comprar ahora</button>
+</div>`
 
-  card.className = 'card col-2 cardBg mt-5 mx-4 g-0'
+  card.className = 'card col-sm-11 col-md-3 cardBg mt-5 mx-4 g-0'
 
   card.innerHTML = cardCont
   cardContainer.appendChild(card)
