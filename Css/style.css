@@ -4,7 +4,6 @@
   --color-2: #d2d7df;
   --color-3: #bdbbb0;
 }
-
 .envios {
   background-color: var(--color-3);
   display: flex;
@@ -65,8 +64,8 @@
   font-size: 15px;
 }
 
-.carousel img {
-  height: 800px;
+.carousel-img {
+  max-height: 500px;
 }
 @media (max-width: 992px) {
   .nav-link:hover {
