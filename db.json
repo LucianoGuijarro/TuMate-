@@ -1,13 +1,14 @@
 {
     "productos": [
-      { "id": 1, "title": "Un Mate - Re Black + Bombilla", "precio": 6900, "img": "https://http2.mlstatic.com/D_NQ_NP_732807-MLA49151444236_022022-O.webp" },
-      { "id": 2, "title": "Mate Imperial Cuero Virola Alpaca + Bombilla Regalo Premium", "precio": 6499, "img": "https://http2.mlstatic.com/D_NQ_NP_702437-MLA48733352973_012022-O.webp"},
-      { "id": 3, "title": "Mate Imperial Uruguayo Cuero Alpaca Cincelado Boca Ancha", "precio": 7500, "img": "https://http2.mlstatic.com/D_NQ_NP_897242-MLA49845211325_052022-O.webp"},
-      { "id": 4, "title": "Mate Stanley Acero Inoxidable Térmico Classic Original Fs", "precio": 8350, "img": "https://http2.mlstatic.com/D_NQ_NP_736428-MLA45683838347_042021-O.webp"},
-      { "id": 5, "title": "Un Re Mate De Acero - Amarillo + Bombilla", "precio": 4700, "img": "https://http2.mlstatic.com/D_NQ_NP_962580-MLA47614386327_092021-O.webp"},
-      { "id": 6, "title": "Termo Lumilagro Luminox de acero inoxidable 1L acero", "precio": 6080, "img": "https://http2.mlstatic.com/D_NQ_NP_934089-MLA42441068436_072020-O.webp"},
-      { "id": 7, "title": "Termo Contigo de acero inoxidable 1.2L negro", "precio": 11050, "img": "https://http2.mlstatic.com/D_NQ_NP_956441-MLA42441551430_072020-O.webp"},
-      { "id": 8, "title": "Termo Bremen 7167 de acero inoxidable 0.6L", "precio": 4950, "img": "https://http2.mlstatic.com/D_NQ_NP_892195-MLA41066491137_032020-O.webp"}
+      { "id": 1, "title": "Mate de independiente", "precio": 6900, "img": "../img/mate de independiente.jpg"},
+      { "id": 2, "title": "Mate de ET", "precio": 6499, "img": "../img/mate de ET.jpg"},
+      { "id": 3, "title": "Mate stanly", "precio": 7500, "img": "../img/mate stanly.jpg"},
+      {"id": 4, "title": "Mate criollo de ceramica", "precio": 3750, "img": "../img/Mate criollo blanco.jpg"},
+      {"id":5, "title": "Mate criollo con dibujo", "precio": 5000, "img": "../img/mate criollo con dibujo.jpg"},
+      {"id":6, "title": "Mate criollo basico", "precio": 3000, "img": "../img/Mate criollo.jpg"},
+      {"id":7, "title": "Set matero celeste", "precio": 10000, "img": "../img/set matero celeste.jpg"},
+      {"id":8, "title": "Combo matero de cuero", "precio": 12000, "img": "../img/combo matero de cuero.jpg"},
+      {"id":9, "title": "Bolso matero La Merced", "precio": 6000, "img": "../img/bolso matero la merced.jpg"}
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }

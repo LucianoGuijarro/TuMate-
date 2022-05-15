@@ -35,32 +35,41 @@ function iniciarSesion() {
   cajaTraseraLogin.style.opacity = "0";
 }
 
-const cardContainer = document.getElementById('cardContainer');
+const cardContainer = document.getElementById("cardContainer");
 
-fetch('http://localhost:3000/productos/')
-.then(response => response.json())
-.then(response => {
-response.map((productos) => {
-  const card = document.createElement('div');
-  const cardCont = `
+fetch("http://localhost:3000/productos/")
+  .then((response) => response.json())
+  .then((response) => {
+    response.map((productos) => {
+      const card = document.createElement("div");
+      const cardCont = `
   <div class="row">
-  <p class="fw-bold text-center mt-4">${productos.title}</p>
+  <div class="col-8 my-2">
+  <p class="text-center ms-2 fw-bold fs-3">
+    ${productos.title}
+  </p>
 </div>
-<div class="row">
   <img
-    class="img-fluid"
+    class="p-0"
     src="${productos.img}"
-    alt=""
+    alt="mate camionero"
   />
 </div>
-<div class="row justify-content-center">
-  <p class="text-center fw-bold opacity-75 fs-3 mt-3">$${productos.precio}</p>
-  <button class="btn btn-primary w-50 mb-4 mt-1">comprar ahora</button>
-</div>`
+<div class="row">
+  <div class="col-4 d-flex">
+    <p class="fw-bold fs-4">$${productos.precio}</p>
+  </div>
+</div>
+<div class="row">
+  <div class="d-flex justify-content-center mb-2">
+    <button class="btn btn-primary">Comprar ahora</button>
+  </div>
+</div>`;
 
-  card.className = 'card col-sm-11 col-md-3 cardBg mt-5 mx-4 g-0'
+      card.className =
+        "col-sm-12 col-md-6 col-lg-3 me-3 mt-3 border border-2 rounded border-info";
 
-  card.innerHTML = cardCont
-  cardContainer.appendChild(card)
-  })
-})
+      card.innerHTML = cardCont;
+      cardContainer.appendChild(card);
+    });
+  });
