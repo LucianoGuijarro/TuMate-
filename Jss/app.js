@@ -50,7 +50,7 @@ fetch("http://localhost:3000/productos/")
   </p>
 </div>
   <img
-    class="p-0"
+    class="p-0 img-card"
     src="${productos.img}"
     alt="mate camionero"
   />

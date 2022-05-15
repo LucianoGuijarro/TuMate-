@@ -302,3 +302,8 @@ li {
 .PieDePagina {
   background: #8a897c;
 }
+
+.img-card {
+  width: 100%;
+  height: 250px;
+}
