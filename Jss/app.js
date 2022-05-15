@@ -27,12 +27,32 @@ function registro() {
   cajaTraseraRegistro.style.opacity = "0";
   cajaTraseraLogin.style.opacity = "1";
 }
-function iniciarSesion() {
-  formularioRegistro.style.display = "none";
-  contenedorLoginRegistro.style.left = "10px";
-  formularioLogin.style.display = "block";
-  cajaTraseraRegistro.style.opacity = "1";
-  cajaTraseraLogin.style.opacity = "0";
+
+
+function iniciarSesion(emailUser, pass) {
+  fetch(' http://localhost:3000/users')
+    .then(Response => Response.json())
+    .then(response => {
+      const usuario = response.find(user => user.email ==
+        emailUser.value)
+      if (usuario) {
+        if (usuario.password == pass.value) {
+          alert("Bienvenido");
+          const userLog = {
+            email: usuario.email,
+            userName: usuario.userName,
+            id: usuario.id,
+            roll: usuario.roll
+          }
+          localStorage.setItem("user", JSON.stringify(userLog))
+          window.location.href = "http://www.google.com";
+        } else {
+          alert(`El usuario o la contreaseña son incorrectas`)
+        }
+      } else {
+        alert(`El correo ${emailUser.value} no esta registrado`)
+      }
+    })
 }
 
 const cardContainer = document.getElementById("cardContainer");

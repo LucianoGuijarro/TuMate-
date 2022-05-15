@@ -298,6 +298,7 @@ li {
     position: relative;
   }
 }
+<<<<<<< HEAD
 /*Css footer*/
 .PieDePagina {
   background: #8a897c;
@@ -307,3 +308,29 @@ li {
   width: 100%;
   height: 250px;
 }
+=======
+/*Css footer*/ 
+
+.icon-container{
+ height: 100px;
+ width: 100px;
+ border-radius: 50%; 
+}
+
+
+.icon-img{
+ width: 80px;
+}
+
+.PieDePagina {
+  background: #7a7354;
+}
+
+.PieDePagina img{
+  margin-left: 40px ;
+  width: 150px;
+}
+.afooter:hover {
+  color: #efefef;
+}
+>>>>>>> footer
