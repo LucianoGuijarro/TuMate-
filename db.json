@@ -5,5 +5,29 @@
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
     ],
-    "profile": { "name": "typicode" }
+    "profile": { "name": "typicode" 
+    },
+    "users":[
+      {
+        "userName": "Anna Rosales",
+        "email": "anna_rosales@gmail.com",
+        "password": "1234",
+        "roll": "admin",
+        "id": 2
+      },
+      {
+        "userName": "luciano guijarro",
+        "email": "luciano_guijarro@gmail.com",
+        "password": "12345",
+        "roll": "admin", 
+        "id": 2
+      },
+      {
+        "userName": "francisco Padros",
+        "email": "francisco_Padros@gmail.com",
+        "password": "123456",
+        "roll": "admin",
+        "id": 2
+      }
+    ]
   }
