@@ -19,16 +19,74 @@ const baseDeDatos = [
     precio: 4000,
     imagen: "",
   },
-
   {
     id: 4,
     nombre: "Mate boca ancha",
     precio: 3500,
     imagen: "",
   },
-
   {
     id: 5,
+    nombre: "Termo media manija",
+    precio: 2500,
+    imagen: "",
+  },
+  {
+    id: 6,
+    nombre: "Mate Imperial",
+    precio: 5000,
+    imagen: "",
+  },
+  {
+    id: 7,
+    nombre: "Mate Torpedo",
+    precio: 5000,
+    imagen: "",
+  },
+  {
+    id: 8,
+    nombre: "Mate camionero",
+    precio: 4000,
+    imagen: "",
+  },
+  {
+    id: 9,
+    nombre: "Mate boca ancha",
+    precio: 3500,
+    imagen: "",
+  },
+  {
+    id: 10,
+    nombre: "Termo media manija",
+    precio: 2500,
+    imagen: "",
+  },
+  {
+    id: 11,
+    nombre: "Mate Imperial",
+    precio: 5000,
+    imagen: "",
+  },
+  {
+    id: 12,
+    nombre: "Mate Torpedo",
+    precio: 5000,
+    imagen: "",
+  },
+  {
+    id: 13,
+    nombre: "Mate camionero",
+    precio: 4000,
+    imagen: "",
+  },
+  {
+    id: 14,
+    nombre: "Mate boca ancha",
+    precio: 3500,
+    imagen: "",
+  },
+  {
+    id: 15,
     nombre: "Termo media manija",
     precio: 2500,
     imagen: "",
