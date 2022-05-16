@@ -50,11 +50,6 @@
               class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
               style="--bs-scroll-height: 500px"
             >
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i
-                ></a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -97,14 +92,12 @@
     <section class="container">
       <div class="row">
         <!-- Elementos generados a partir del JSON -->
-        <main class="carrito-items" id="items"></main>
+        <main class="carrito-items row text-center" id="items"></main>
         <!-- Carrito -->
         <div>
           <h2 class="title-carrito">Carrito</h2>
           <!-- Elementos del carrito -->
-          <ul id="carrito" class="list-group">
-
-          </ul>
+          <ul id="carrito" class="list-group"></ul>
 
           <!-- Precio total -->
           <p class="total-carrito">Total: <span id="total"></span>$</p>

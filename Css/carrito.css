@@ -21,3 +21,7 @@
   height: 50px;
   font-size: 25px;
 }
+
+.carrito-items{
+  display: flex;
+}
