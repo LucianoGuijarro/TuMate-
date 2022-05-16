@@ -1,0 +1,23 @@
+.mensajeria-title {
+  font-size: 50px;
+  text-align: start;
+  margin: 20px 20px;
+}
+
+.form-label {
+  font-size: 25px;
+  margin: 10px 10px;
+}
+.form-control {
+  text-align: center;
+  width: 50%;
+  margin: 20px 20px;
+  flex-direction: row;
+}
+.mensajeria {
+  display: flex;
+}
+
+.btn {
+  border: 2px solid;
+}
