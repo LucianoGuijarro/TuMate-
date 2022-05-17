@@ -29,7 +29,10 @@ function registro() {
 }
 
 
-function iniciarSesion(emailUser, pass) {
+function iniciarSesion(event) {
+  event.preventDefault()
+  const emailUser = document.getElementById ("email")
+  const pass = document.getElementById ("password")
   formularioRegistro.style.display = "none";
   contenedorLoginRegistro.style.left = "10px";
   formularioLogin.style.display = "block";
@@ -49,7 +52,7 @@ function iniciarSesion(emailUser, pass) {
             roll: usuario.roll
           }
           localStorage.setItem("user", JSON.stringify(userLog))
-          window.location.href = "http://www.google.com";
+          window.location.href = "/administrador.html";
         } else {
           alert(`El usuario o la contreaseña son incorrectas`)
         }
