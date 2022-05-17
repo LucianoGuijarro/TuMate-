@@ -298,7 +298,8 @@ li {
   }
 }
 .Error{
-  padding: 220px;
+  padding-block-start: 220px;
+  padding-block-end: 220px;
 }
 /*Css footer*/
 .PieDePagina {
