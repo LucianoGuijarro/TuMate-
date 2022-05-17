@@ -82,7 +82,7 @@ fetch("http://localhost:3000/productos/")
 </div>
 <div class="row">
   <div class="d-flex justify-content-center mb-2">
-    <button class="btn btn-primary">Comprar ahora</button>
+    <button class="btn btn-primary" onclick="redireccionarComprar()">Comprar ahora</button>
   </div>
 </div>`;
 
@@ -93,6 +93,9 @@ fetch("http://localhost:3000/productos/")
       cardContainer.appendChild(card);
     });
   });
+function redireccionarComprar (){
+  location.href= "./pages/carrito.html"
+};
 
   function buscar(buscarProducto){
     fetch("http://localhost:3000/productos/")
@@ -126,7 +129,7 @@ fetch("http://localhost:3000/productos/")
     </div>
     <div class="row">
       <div class="d-flex justify-content-center mb-2">
-        <button class="btn btn-primary">Comprar ahora</button>
+        <button class="btn btn-primary" onclick="redireccionarComprar()">Comprar ahora</button>
       </div>
     </div>`;
     
