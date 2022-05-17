@@ -6,9 +6,9 @@
       {"id": 4, "title": "Mate criollo de ceramica", "precio": 3750, "img": "../img/Mate criollo blanco.jpg"},
       {"id":5, "title": "Mate criollo con dibujo", "precio": 5000, "img": "../img/mate criollo con dibujo.jpg"},
       {"id":6, "title": "Mate criollo basico", "precio": 3000, "img": "../img/Mate criollo.jpg"},
-      {"id":7, "title": "Set matero celeste", "precio": 10000, "img": "../img/set matero celeste.jpg"},
-      {"id":8, "title": "Combo matero de cuero", "precio": 12000, "img": "../img/combo matero de cuero.jpg"},
-      {"id":9, "title": "Bolso matero La Merced", "precio": 6000, "img": "../img/bolso matero la merced.jpg"},
+      {"id":7, "title": "Set celeste", "precio": 10000, "img": "../img/set matero celeste.jpg"},
+      {"id":8, "title": "Combo de cuero", "precio": 12000, "img": "../img/combo matero de cuero.jpg"},
+      {"id":9, "title": "Bolso La Merced", "precio": 6000, "img": "../img/bolso matero la merced.jpg"},
       {"id":10, "title": "Prueba 1", "precio": 7000, "img": "../img/prueba1.png"},
       {"id":10, "title": "Prueba 1", "precio": 7000, "img": "../img/prueba1.png"},
       {"id":10, "title": "Prueba 1", "precio": 7000, "img": "../img/prueba1.png"}
