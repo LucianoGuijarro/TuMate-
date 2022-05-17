@@ -20,7 +20,7 @@ function registro() {
   // contenedorLoginRegistro.className = "contenedor--login--registro--js-left"
   // formularioLogin.className = "formulario-login-js-none"
   // cajaTraseraRegistro.className = "caja--trasera--registro-js"
-  // cajaTraseraLogin.className = "caja--trasera--login.js"
+  // cajaTraseraLogin.className = "caja--trasera--login-js"
   formularioRegistro.style.display = "block";
   contenedorLoginRegistro.style.left = "410px";
   formularioLogin.style.display = "none";
@@ -30,6 +30,11 @@ function registro() {
 
 
 function iniciarSesion(emailUser, pass) {
+  formularioRegistro.style.display = "none";
+  contenedorLoginRegistro.style.left = "10px";
+  formularioLogin.style.display = "block";
+  cajaTraseraRegistro.style.opacity = "1";
+  cajaTraseraLogin.style.opacity = "0";
   fetch(' http://localhost:3000/users')
     .then(Response => Response.json())
     .then(response => {

@@ -271,7 +271,7 @@ li {
 .caja--trasera--registro-js {
   opacity: 0;
 }
-.caja--trasera--login.js {
+.caja--trasera--login-js {
   opacity: 1;
 }
 @media screen and(max-width: 850px) {
