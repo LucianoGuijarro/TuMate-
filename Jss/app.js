@@ -29,17 +29,16 @@ function registro() {
 }
 
 
-function iniciarSesion(email, pass) {
+function iniciarSesion(emailUser, pass) {
   formularioRegistro.style.display = "none";
   contenedorLoginRegistro.style.left = "10px";
   formularioLogin.style.display = "block";
   cajaTraseraRegistro.style.opacity = "1";
   cajaTraseraLogin.style.opacity = "0";
-  fetch(' http://localhost:3000/users')
-    .then(Response => Response.json())
+  fetch('http://localhost:3000/users')
+    .then(response => response.json())
     .then(response => {
-      const usuario = response.find(user => user.email ==
-        email.value)
+      const usuario = response.find(user => user.email == emailUser.value)
       if (usuario) {
         if (usuario.password == pass.value) {
           alert("Bienvenido");
@@ -57,6 +56,7 @@ function iniciarSesion(email, pass) {
       } else {
         alert(`El correo ${emailUser.value} no esta registrado`)
       }
+      console.log(usuario)
     })
 }
 
