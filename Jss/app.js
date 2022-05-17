@@ -29,7 +29,7 @@ function registro() {
 }
 
 
-function iniciarSesion(emailUser, pass) {
+function iniciarSesion(email, pass) {
   formularioRegistro.style.display = "none";
   contenedorLoginRegistro.style.left = "10px";
   formularioLogin.style.display = "block";
@@ -39,7 +39,7 @@ function iniciarSesion(emailUser, pass) {
     .then(Response => Response.json())
     .then(response => {
       const usuario = response.find(user => user.email ==
-        emailUser.value)
+        email.value)
       if (usuario) {
         if (usuario.password == pass.value) {
           alert("Bienvenido");

@@ -297,6 +297,9 @@ li {
     position: relative;
   }
 }
+.Error{
+  padding: 220px;
+}
 /*Css footer*/
 .PieDePagina {
   background: #bdbbb0;
